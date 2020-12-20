@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Oxygen:wght@700&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap" rel="stylesheet">
+    <!-- End of Google Fonts -->
+    <title>Marcus Gan</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#About" id='nav_course'>About</a></li>
+            <li><a href="#RMIT" id='nav_RMIT'>RMIT - portfolio</a></li>
+            <li><a href="#personal" id='nav_personal'>Personal - portfolio</a></li>
+        </ul>
+    </nav>
+    <section id='about'>
+        <article class='bg'>
+                    <h1 class='title'>About</h1>
+            <div id='Content_bg'>
+                <div id='Content'>
+                    <div class="about" id='about_container'>
+                        <div id='Profile' class='about_item'>
+                            <img id='Profile_Pic' src="images/profile.jpg" alt="Profile Picture" height=240 width=230>
+                            <h1 id='name'>Marcus Jia Yue Gan</h1>
+                        </div>
+                        <div class="about_item" id='about_text'>
+                        
+Enthusiastic programmer who is willing to learn more. I can work in a team and give my opinion when needed. I am also willingly to go out of my comfort spot or explore new areas, that I have no familiarity with.
+
+                        </div>
+                    </div>
+                    <div class='about'>
+                        I am studying Bachelor's of Information Technology at RMIT. The subjects I am taking at RMIT are:
+                        <div id='subject_buttons'>
+                            <span class='button' onclick="programmingActive()" id='general_programming_button'>General Programming</span>
+                            <span class='button' onclick="compSciActive()" id='info_tech/comp_sci_button'>Information Technology/Computer Science</span>
+                            <span class='button' onclick="webDevelopmentActive()" id='web_development_button'>Web Development</span>
+                            <span class='button' onclick="gameProgrammingActive()" id='game_programming_button'>Game Programming</span>
+                            <span class='button' onclick="commerceActive()" id='commerce_button'>Commerce</span>
+                            <span class='button' onclick="languageActive()" id='language_button'>Language</span>
+                            <span class='button' onclick='reset()'>Reset</span>
+                        </div>
+                        <div id='subjects'>
+                            <table id='general_programming'>
+                                <!-- <b class='table_title' >General Programming</b> -->
+                                <thead>
+                                    <tr>
+                                        <td>Subject Name</td>
+                                        <td>Subject Course Code</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Introduction to Programming</td>
+                                        <td>COSC1519</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Further Programming</td>
+                                        <td>COSC2391</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Programing 1</td>
+                                        <td>COSC1073</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Advanced Programming Techniques</td>
+                                        <td>COSC1076</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table id='info_tech/comp_sci'>
+                                <!-- <b class='table_title' >Information Technology/Computer Science</b> -->
+                                <thead>
+                                    <tr>
+                                        <td>Subject Name</td>
+                                        <td>Subject Course Code</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Professional Computing Practice</td>
+                                        <td>COSC1147</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Database Concept</td>
+                                        <td>ISYS1057</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Software Engineering Project Management</td>
+                                        <td>ISYS1108</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Security in Computing and Information Technology</td>
+                                        <td>COSC2536</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Software Engineering Fundamentals for IT</td>
+                                        <td>ISYS3413</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Algorithm & Analysis</td>
+                                        <td>COSC2123</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Building IT Systems</td>
+                                        <td>COSC2625</td>
+                                    </tr>
+                                    <tr>
+                                        <td>User-centred Design</td>
+                                        <td>COSC2628</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Introduction to Computer Systems</td>
+                                        <td>COSC2473</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Introduction to Information Technology</td>
+                                        <td>COSC1078</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Programming Project 1 or 2</td>
+                                        <td>COSC2408/COSC2409</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table id='web_development'>
+                                <!-- <b class='table_title' >Web-Development</b> -->
+                                <thead>
+                                    <tr>
+                                        <td>Subject Name</td>
+                                        <td>Subject Course Code</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Web Programming</td>
+                                        <td>COSC2413</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Web Development Technologies</td>
+                                        <td>COSC2276</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table id='game_programming'>
+                                <!-- <b class='table_title' >Game Programming</b> -->
+                                <thead>
+                                    <tr>
+                                        <td>Subject Name</td>
+                                        <td>Subject Course Code</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Games and AI Techniques</td>
+                                        <td>COSC2527</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Interactive 3D Graphics & Animation</td>
+                                        <td>COSC1187</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table id='commerce'>
+                                <!-- <b class='table_title' >Commerce</b> -->
+                                <thead>
+                                    <tr>
+                                        <td>Subject Name</td>
+                                        <td>Subject Course Code</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Price and Markets</td>
+                                        <td>ECON1020</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Macroeconomics 1</td>
+                                        <td>ECON1010</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Financial Markets</td>
+                                        <td>BAFI1002</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Business Statistics 1</td>
+                                        <td>ECON1030</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table id='language'>
+                                <!-- <b class='table_title'>Language</b> -->
+                                <thead>
+                                    <tr>
+                                        <td>Subject Name</td>
+                                        <td>Subject Course Code</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Japanese 2</td>
+                                        <td>LANG1094</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        I'll be exiting out with a <b>Bachelors of Information Technolgy minoring in Basic Finance and Economics.</b>
+                    </div> 
+                    <div style='text-align:center'>
+                        <span class='about_dot' onclick='currentSlide(1, "about")'></span>
+                        <span class='about_dot' onclick='currentSlide(2, "about")'></span>
+                    </div>
+                    </div>
+                    <div class='nextSlideButtons'>
+                            <a class='prev' onclick="nextSlide(-1, 'about')">&#10094;</a>
+                            <a class='next' onclick="nextSlide(1, 'about')">&#10095;</a>
+                    </div>
+            </div>
+            
+        </article>
+    </section>
+    <section id='featuring_portfolio'>
+
+    </section>
+    <section id='RMIT'>
+        <h1 class='title'>RMIT - Portfolio</h1>
+        <div class="RMIT_portfolio">
+            <article id='R1' class='r_folio'>
+                <h3>Advanced Programming Techniques</h3>
+                <div class='portfolio_content'>
+                    <div class='portfolio_text_contents'>
+                        <div class='portfolio_text'>
+                            <b class='portfolio_subtitle'>About the project:</b><br>
+                            This program was based on <u>Advanced Programming Techniques COSC1076 Assignment 2</u>, where we had to form a group of 3. The program was a game based on the board game called <a href="https://www.ultraboardgames.com/azul/game-rules.php" target="_blank">'Azul'</a>. We had to program this in C++ using pointers, references and other collections. I built most of the classes, contributed a lot to the game mechanic, implemented the load game, implementing the menu feature and fixed the save game feature to be dynamic instead of it being hard-coded. 
+                        </div>
+                        <div class='portfolio_learnt'>
+                            <b>What I had learnt:</b><br>
+                            <li>reinforced the idea of C++ is not a pure object oriented language compared to Java, which troubled me when I was testing the features and designing the code.</li>
+                            <li>In terms of managing the group, I should've been more proactive in contacting one of the teammates instead of relying them to message if they are stuck on one part of the project. This had probably been the most detriment part of the assignment.</li>
+                        </div>
+                    </div>
+                    <div class='featuring_slides'>
+                        <div id='Azulgif'>
+                            <img src="images/APT-Azul/Azul.gif" alt="Azul Gameplay" class='gif'>
+                        </div>
+                        <div id='slideshow'>
+                            <img src="images/APT-Azul/Files.PNG" alt="Files" class='Slideshow_R1'>
+                            <img src="images/APT-Azul/Menu.PNG" alt="Menu" class='Slideshow_R1' >
+                            <img src="images/APT-Azul/credits.PNG" alt="Credits" class='Slideshow_R1' >
+                            <img src="images/APT-Azul/bobTurn.PNG" alt="Player 1's Turn" class='Slideshow_R1' >
+                            <img src="images/APT-Azul/HenryTurn.PNG" alt="Player 2's Turn" class='Slideshow_R1' >
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class='RMIT_portfolio'>
+            <article id='R2' class='r_folio'>
+                <h3>Further Programming</h3>
+                <div class="portfolio_content">
+                    <div class="portfolio_text_contents">
+                        <div class="portfolio_text">
+                            <b>About the project:</b><br>
+                            This program was based on <u>Further Programming COSC2391</u> assiginment 2. This was a continuation of assignment 1, which was the model part of the program. The program was about creating players and allowing them to place bets and then they can roll and whoever, gets a higher combined results on their dice against the house wins and they get doubled their bet placed back. With the restriction applied like entering valid bets, betting within their range, etc. For assigngment 2 was to use the Java's Swing framework when producing the GUI of the program. For this assignment we focused on the View and Controller part as the model should have been completed by assignment 1.
+                        </div>
+                        <div class="portfolio_learnt">
+                            <b>What I had learnt:</b><br>
+                            <li>Time manage better especially when another assignment goes longer than expected.</li>
+                            <li>Being able to use the MVC design pattern.</li>
+                        </div>
+                    </div>
+                    <div class="featuring_slides">
+                        <div id="Dicegif">
+                            <img src="images/FP-DiceGame/DiceGame.gif" alt="Dice Gameplay" class='gif'>
+                        </div>
+                        <div id="slideshow">
+                            <img src="images/FP-DiceGame/Model.PNG" alt="Models of the MVC Structure" class="Slideshow_R2">
+                            <img src="images/FP-DiceGame/MVC_Structure.PNG" alt="Controllers and Views of the MVC Structure" class='Slideshow_R2'>
+                            <img src="images/FP-DiceGame/Adding_Player.PNG" alt="Adding a player" class='Slideshow_R2'>
+                            <img src="images/FP-DiceGame/Failing_to_add_a_Player.PNG" alt="Failed to add a player" class='Slideshow_R2'>
+                            <img src="images/FP-DiceGame/Failing_to_place_a_bet.PNG" alt="Failed to place a bet" class='Slideshow_R2'>
+                            <img src="images/FP-DiceGame/Placing_a_bet.PNG" alt="Placed a bet" class='Slideshow_R2'>
+                            <img src="images/FP-DiceGame/End_Game.PNG" alt="End gameplay" class='Slideshow_R2'>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class='nextSlideButtons'>
+            <a class='prev' onclick="nextSlide(-1, 'RMIT_portfolio')">&#10094;</a>
+            <a class='next' onclick="nextSlide(1, 'RMIT_portfolio')">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="RMIT_dot" onclick="currentSlide(1, 'RMIT_portfolio')"></span>
+            <span class="RMIT_dot" onclick="currentSlide(2, 'RMIT_portfolio')"></span>
+        </div>
+    </section>
+    <section id='personal'>
+        <h1 class='title'>Personal - Portfolio</h1>
+        <div class='personal_portfolio'>
+            <article id='P1' class='p_folio'>
+                <div id='WIP'>WIP</div>
+            </article>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+
+<!-- Animation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="js/animation.js"></script>
+<!-- End of Animation -->
+<script src="js/script.js"></script>
+<script>
+    /*Animation Variables*/
+    const RMIT_FOLIO_TEXT = '.portfolio_text_contents';
+    const RMIT_FOLIO_DISPLAY = 'featuring_slides';
+    /*End of Animation Variables*/
+
+    /*Navbar*/
+    window.onscroll = function() {nav()};
+    var navbar = document.getElementsByTagName('nav')[0];
+    var course = document.getElementById("nav_course");
+    var RMIT = document.getElementById("nav_RMIT");
+    var personal = document.getElementById("nav_personal");
+    var sticky = navbar.offsetTop;
+    
+    const COURSE_OFFSET = document.getElementById("about").offsetTop;
+    // var RMIT_offset = document.getElementById("RMIT").offsetTop;
+    // var personal_offset = document.getElementById("personal").offsetTop;
+
+    // var RMIT_YOFFSET = document.getElementById("RMIT").offsetTop;
+    // var PERSONAL_YOFFSET = document.getElementById("personal").offsetTop;
+
+    const RMIT_YOFFSET = 727.272705078125;
+    const PERSONAL_YOFFSET = 1550;
+    // const PERSONAL_YOFFSET = 1640.9090576171875;
+
+    function nav() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add('sticky');
+        } else {
+            navbar.classList.remove('sticky');
+        }
+
+        if (window.pageYOffset >= COURSE_OFFSET && window.pageYOffset < RMIT_YOFFSET) {
+            course.classList.add("active");
+            RMIT.classList.remove('active');
+            personal.classList.remove('active');
+
+        } else if (window.pageYOffset >= RMIT_YOFFSET && window.pageYOffset < PERSONAL_YOFFSET) {
+            RMIT.classList.add('active');
+            personal.classList.remove('active');
+            course.classList.remove('active');
+
+            let t2 = gsap.timeline();
+
+            t2.to(RMIT_FOLIO_TEXT, {x:250, duration: 2, ease: 'power2.inOut'});
+            t2.to(RMIT_FOLIO_DISPLAY, {x:-2500, duration: 2, ease: 'power2.inOut', delay: -2});
+        } else if (window.pageXOffset >= PERSONAL_YOFFSET) {
+            personal.classList.add('active');
+            course.classList.remove('active');
+            RMIT.classList.remove('active');
+        } else {
+            personal.classList.remove('active');
+            course.classList.remove('active');
+            RMIT.classList.remove('active');
+        }
+    }
+    /*End of Navbar*/
+
+    /* Automated Slideshow */
+    slideShow('Slideshow_R1');
+    slideShow('Slideshow_R2')
+
+    function slideShow(slideShow_code) {
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var slides = document.getElementsByClassName(slideShow_code);
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = 'none';
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1;}
+        slides[slideIndex-1].style.display = 'block';
+        setTimeout(carousel, 2000);
+    }
+}
+/*End of Automated Slideshow*/
+</script>
+
+<script>
+/*Manual Slideshow*/
+const RMIT_DOTS = document.getElementsByClassName('RMIT_dot');
+const PERSONAL_DOTS = document.getElementsByClassName('personal_dot');
+const ABOUT_DOTS = document.getElementsByClassName('about_dot');
+var slideIndex = 1;
+showSlides(slideIndex, 'RMIT_portfolio');
+showSlides(slideIndex, 'about');
+
+function nextSlide(n, portfolio_code) {
+  showSlides(slideIndex += n, portfolio_code);
+}
+
+function currentSlide(n, portfolio_code) {
+  showSlides(slideIndex = n,portfolio_code);
+}
+
+function showSlides(n, portfolio_code) {
+  var i;
+  var slides;
+  var dots;
+  if (portfolio_code === 'RMIT_portfolio') {
+    slides = document.getElementsByClassName("RMIT_portfolio");
+    dots = RMIT_DOTS;
+  } else if (portfolio_code === 'personal_portfolio'){
+    slides = document.getElementsByClassName('personal_portfolio');
+    dots = PERSONAL_DOTS;
+  }
+  else if (portfolio_code === 'about') {
+      slides = document.getElementsByClassName('about');
+      dots = ABOUT_DOTS;
+  }
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" dot_active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " dot_active";
+}
+/*Manual Slideshow*/
+</script>
+
+<script>
+    // Mobile devices
+    var siteWidth = 1280;
+    var scale = screen.width /siteWidth;
+
+    document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
+</script>
+<noscript>Please enable Javascript</noscript>
+</html>
